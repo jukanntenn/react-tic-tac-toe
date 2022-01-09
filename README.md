@@ -4,7 +4,7 @@ tic-tac-toe game source code in [Tutorial: Intro to React](https://reactjs.org/t
 
 ## Preview
 
-Coming soon...
+[React tic-tac-toe game](https://jukanntenn.github.io/react-tic-tac-toe/)
 
 ## Usage
 
