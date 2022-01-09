@@ -15,7 +15,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -41,8 +43,10 @@
     "@types/react": "^17.0.38",
     "@types/react-dom": "^17.0.11",
     "babel-jest": "26.6",
+    "gh-pages": "^3.2.3",
     "jest": "26.6.0",
     "react-test-renderer": "^17.0.2",
     "typescript": "^4.5.4"
-  }
+  },
+  "homepage": "https://jukanntenn.github.io/react-tic-tac-toe"
 }
