@@ -12,6 +12,11 @@ jobs:
 
       - uses: actions/setup-node@v2
 
+      - uses: actions/cache@v2
+        with:
+          path: "**/node_modules"
+          key: ${{ runner.os }}-modules-${{ hashFiles('**/yarn.lock') }}
+
       - run: yarn
       - run: yarn test --watchAll=false
       - run: yarn build
